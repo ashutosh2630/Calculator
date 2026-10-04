@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" value="0" disabled />
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-light" data-action="clear"><i class="fa-solid fa-broom"></i></button>
+            <button class="btn btn-light" data-action="delete"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="btn btn-light" data-action="percent"><i class="fa-solid fa-percent"></i></button>
+            <button class="btn btn-operator" data-value="÷"><i class="fa-solid fa-divide"></i></button>
+
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn btn-operator" data-value="×"><i class="fa-solid fa-xmark"></i></button>
+
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn btn-operator" data-value="−"><i class="fa-solid fa-minus"></i></button>
+
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn btn-operator" data-value="+"><i class="fa-solid fa-plus"></i></button>
+
+            <button class="btn btn-zero" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn btn-equals" data-action="equals"><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
