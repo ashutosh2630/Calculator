@@ -9,13 +9,14 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
 }
 
 .container{
      display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading{
