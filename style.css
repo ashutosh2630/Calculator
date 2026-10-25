@@ -13,6 +13,13 @@ body {
     background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
 }
 
+.heading{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .calculator {
     width: min(92vw, 360px);
     background: rgba(15, 23, 42, 0.96);
